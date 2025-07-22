@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validations</title>
+        <link rel="stylesheet" href="validations.css">
+        <script src="validations.js"></script>
+    </head>
+    <body>
+        <form name="regForm" onsubmit="return register()">
+            <table>
+                <!--First Name-->
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>
+                        <input type="text" name="fname" placeholder="enter first name">
+                    </td>
+                    <td>
+                        <span id="fname_errors"></span>    
+                    </td>
+                </tr>
+
+                 <!--Last Name-->
+                <tr>
+                    <td>
+                       Last Name
+                    </td>
+                    <td>
+                        <input type="text" name="lname" placeholder="enter last name">
+                    </td>
+                    <td>
+                        <span id="lname_errors"></span>    
+                    </td>
+                </tr>
+
+                <!--email-->
+                <tr>
+                    <td>
+                       Email
+                    </td>
+                    <td>
+                        <input type="text" name="email" placeholder="enter email">
+                    </td>
+                    <td>
+                        <span id="email_errors"></span>    
+                    </td>
+                </tr>
+
+                <!--mobile number-->
+                <tr>
+                    <td>
+                       Mobile Number
+                    </td>
+                    <td>
+                        <input type="number" name="mobile number" placeholder=" enter mobile number">
+                    </td>
+                    <td>
+                        <span id="mobile number_errors"></span>    
+                    </td>
+                </tr>
+
+                <!--SUBMIT & RESET BUTTONS-->
+                <tr>
+                    <td>
+                        <input type="submit" value="Register">
+                    </td>
+                    <td>
+                        <input type="reset" value="cancel">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
